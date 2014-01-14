@@ -1,12 +1,19 @@
-<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php
 
-/**
- * Exporter - Module File
- *
- * @author		Aaron Waldon <http://www.causingeffect.com> for Michael Rog
- * @copyright	Copyright (c) 2013
- * @license		All rights reserved
- */
+/*
+=====================================================
+
+RogEE "Entry Exporter"
+an add-on for ExpressionEngine 2
+by Michael Rog and Aaron Waldon
+
+Contact Michael with questions, feedback, suggestions, bugs, etc.
+>> http://rog.ee
+
+=====================================================
+*/
+
+if (!defined('APP_VER') || !defined('BASEPATH')) { exit('No direct script access allowed'); }
 
 
 class Exporter {

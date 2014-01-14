@@ -1,11 +1,31 @@
 <?php
 
-if ( ! defined('EXPORTER_VERSION') )
+/*
+=====================================================
+
+RogEE "Entry Exporter"
+an add-on for ExpressionEngine 2
+by Michael Rog and Aaron Waldon
+
+Contact Michael with questions, feedback, suggestions, bugs, etc.
+>> http://rog.ee
+
+=====================================================
+
+*/
+
+if ( ! defined('ROGEE_EXPORTER_VERSION') )
 {
-	//Last Update: 20 July 2013
-	define('EXPORTER_VERSION', '1.0.0');
+    define('ROGEE_EXPORTER_NAME', 'Entry Exporter [RogEE]');
+    define('ROGEE_EXPORTER_VERSION',  '0.0.1');
+    define('ROGEE_EXPORTER_AUTHOR', 'Michael Rog');
+    define('ROGEE_EXPORTER_AUTHOR_URL', 'http://rog.ee');
+    define('ROGEE_EXPORTER_DESC', 'Exports an entry into a set of files on disk using a provided template.');
+    define('ROGEE_EXPORTER_DOCS', 'http://rog.ee');
 }
 
-$config['name'] = 'Exporter';
-$config['version'] = EXPORTER_VERSION;
-//$config['nsm_addon_updater']['versions_xml'] = 'http://www.causingeffect.com/software/expressionengine/ce-cache/change-log.rss';
+
+/*
+End of file:	config.php
+File location:	system/expressionengine/third_party/exporter/config.php
+*/
